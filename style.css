@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+.header {
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+  filter: drop-shadow(0px 0px 10px #555);
+  border-bottom: 0.5px solid #777;
+}
+.logo {
+width: 200px;
+}
+.message {
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 100px;
+  color: white;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+a {
+  color: #4c9a2a;
+  font-weight: 700;
+  text-decoration: none;
+}
+body {
+font-family: Quicksand;
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+background: linear-gradient(90deg, rgba(164,222,2,1) 0%, rgba(76,154,42,1) 100%);
+}
+.headnote {
+  margin: 0;
+  padding: 5px 0 5px 0;
+  background-color: #333;
+  font-weight: 700;
+}
+.notemessage {
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-family: Quicksand;
+  font-size: 12px;
+}
+.locaties {
+  text-align: center;
+}
+h1 {
+  font-family: Quicksand;
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+background-color: #eee;
+color: #444;
+cursor: pointer;
+padding: 18px;
+width: 25%;
+border: none;
+text-align: left;
+outline: none;
+font-family: Quicksand;
+font-size: 15px;
+font-weight: 700;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+box-sizing: border-box;
+padding: 0 18px;
+display: none;
+overflow: hidden;
+background-color: #f1f1f1;
+width: 25%;
+margin: auto;
+text-align: left;
+}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
